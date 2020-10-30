@@ -6,8 +6,8 @@ import "./style.css";
 function Header() {
     return (
         <>
-            <Grid className="Header-heading" container justify="center">
-                <Typography variant="h1" align="center" color="secondary">Employee Directory</Typography>
+            <Grid className="Header-heading header-style" container justify="center">
+                <Typography variant="h2" align="center" color="secondary">Employee Directory</Typography>
             </Grid>
         </>
     )

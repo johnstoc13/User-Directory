@@ -5,20 +5,21 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import "./style.css";
 
 function EmployeeTable(props) {
     return (
-        <TableContainer>
+        <TableContainer className="table-style">
             <Table stickyHeader aria-label="Employee Table">
 
                 {/* Table header with titles for employees info */}
                 <TableHead>
                     <TableRow>
-                        <TableCell align="center">Image</TableCell>
-                        <TableCell align="center">First Name</TableCell>
-                        <TableCell align="center">Last Name</TableCell>
-                        <TableCell align="center">Email</TableCell>
-                        <TableCell align="center">Phone Number</TableCell>
+                        <TableCell align="center">IMAGE</TableCell>
+                        <TableCell align="center">FIRST NAME</TableCell>
+                        <TableCell align="center">LAST NAME</TableCell>
+                        <TableCell align="center">EMAIL</TableCell>
+                        <TableCell align="center">PHONE NUMBER</TableCell>
                     </TableRow>
                 </TableHead>
 
