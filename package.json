@@ -2,6 +2,7 @@
   "name": "user-directory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://johnstoc13.github.io/User-Directory",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -39,7 +40,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "homepage": "https://myusername.github.io/user-directory"
+    ]
   }
 }
