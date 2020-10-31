@@ -6,6 +6,7 @@ import "./style.css";
 import Grid from '@material-ui/core/Grid';
 import SearchBox from "../SearchBox";
 import {util} from "../../utils/util";
+import Footer from "../Footer";
 
 class Directory extends Component {
 
@@ -85,6 +86,7 @@ class Directory extends Component {
                     <SearchBox employees={this.state.employees} handleInputChange={this.handleInputChange} />
                 </Grid>
                 <EmployeeTable employees={this.state.employees} handleSort={this.handleSort} orderBy={this.state.orderBy} order={this.state.order} />
+                <Footer />
             </div>
         )
     }
