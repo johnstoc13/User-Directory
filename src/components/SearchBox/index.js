@@ -3,7 +3,7 @@ import TextField from '@material-ui/core/TextField';
 
 function SearchBox(props) {
     return (
-        <TextField variant="outlined" label="Search Here" type="search" name="search" onChange={props.handleInputChange} />
+        <TextField color="secondary" variant="outlined" label="Search Here" type="search" name="search" onChange={props.handleInputChange} />
     )
 }
 
