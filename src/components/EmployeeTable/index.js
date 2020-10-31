@@ -5,6 +5,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import TableSortLabel from '@material-ui/core/TableSortLabel';
 import "./style.css";
 
 function EmployeeTable(props) {
@@ -16,9 +17,15 @@ function EmployeeTable(props) {
                 <TableHead>
                     <TableRow>
                         <TableCell align="center">IMAGE</TableCell>
-                        <TableCell align="center">FIRST NAME</TableCell>
-                        <TableCell align="center">LAST NAME</TableCell>
-                        <TableCell align="center">EMAIL</TableCell>
+                        <TableCell align="center">FIRST NAME
+                            <TableSortLabel active={props.orderBy === "firstName"} direction={props.order} onClick={() => props.handleSort("firstName", props.order)}></TableSortLabel>
+                        </TableCell>
+                        <TableCell align="center">LAST NAME
+                        <TableSortLabel active={props.orderBy === "lastName"} direction={props.order} onClick={() => props.handleSort("lastName", props.order)}></TableSortLabel>
+                        </TableCell>
+                        <TableCell align="center">EMAIL
+                        <TableSortLabel active={props.orderBy === "email"} direction={props.order} onClick={() => props.handleSort("email", props.order)}></TableSortLabel>
+                        </TableCell>
                         <TableCell align="center">PHONE NUMBER</TableCell>
                     </TableRow>
                 </TableHead>
