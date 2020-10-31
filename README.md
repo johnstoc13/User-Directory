@@ -38,8 +38,14 @@ Material-UI - https://material-ui.com/
 
 ## Images
 
-### Main Page
-<img width="1283" alt="Budget Page" src="https://user-images.githubusercontent.com/66090689/97096726-33eebf00-163e-11eb-8648-df5bf128c458.png">
+### Main
+<img width="1356" alt="Main" src="https://user-images.githubusercontent.com/66090689/97770553-b974e200-1b0a-11eb-8526-665e81b6feb8.png">
+
+### Sort Example
+<img width="1357" alt="Sort ASC by First Name" src="https://user-images.githubusercontent.com/66090689/97770554-baa60f00-1b0a-11eb-87a8-b9339044c4f2.png">
+
+### Search Example
+<img width="1357" alt="Search" src="https://user-images.githubusercontent.com/66090689/97770555-bbd73c00-1b0a-11eb-8c4f-5e4456273f4e.png">
 
 ## License
 
