@@ -22,7 +22,6 @@ class Directory extends Component {
     componentDidMount() {
         API.getEmployees()
             .then(response => {
-                console.log(response);
                 let employeeData = response.data.results.map(emp => {
                     return {
                         id: emp.id.value,
@@ -37,7 +36,6 @@ class Directory extends Component {
                     employees: employeeData,
                     loadedEmployees: employeeData
                 })
-                console.log(employeeData);
             })
             .catch(err => console.log(err));
     }
@@ -78,6 +76,7 @@ class Directory extends Component {
         });
     }
 
+    // Render the content
     render() {
         return (
             <div>
